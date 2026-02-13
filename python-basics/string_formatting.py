@@ -44,3 +44,4 @@ print("cleaned amount added:", cleaned_amount_added)
 new_balance = int(cleaned_balance) + int(cleaned_amount_added)
 
 print(f"the new balance is:",new_balance)
+

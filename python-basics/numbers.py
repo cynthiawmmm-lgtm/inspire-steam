@@ -12,10 +12,10 @@
 #product_numbers = first number * second number
 
 
-#print(f"the sum of the numbers{sum_numbers}")
-#print(f"the difference of the numbers {difference_numbers}")
-#print(f"the quontient of the numbers{quontient_numbers}")
-#print(f"the product of the numbers{product_numbers}")
+print(f"the sum of the numbers:{sum_numbers}")
+print(f"the difference of the numbers :{difference_numbers}")
+print(f"the quontient of the numbers:{quontient_numbers}")
+print(f"the product of the numbers:{product_numbers}")
 
 
 
