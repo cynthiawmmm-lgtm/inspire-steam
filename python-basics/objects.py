@@ -13,11 +13,11 @@ class Human:
     # we then create a constructor for the class object
     # The constructor will be used create copies of this objects
     def __init__(self, name, age):
-        self.human_name = name
-        self.human_age = age
+        self.name = name
+        self.age = age
 
-    def tell_story():
-        print(f"Hello,I am {self.human_name} here is a story")
+    def tell_story(self):
+        print(f"Hello,I am {self.name} here is a story")
         print("there was once existence of dinosaurs ")
 
 #create the humans
@@ -26,7 +26,7 @@ Dwayne = Human("Dwayne:",43)
 
 #let the humans created do things
 Jenny.tell_story()
-Print("Jenny's age is:", Jenny. human_age)
+print("Jenny's age is:", Jenny.age)
 
 # Modify one of the objects, without modifying other objects 
 Dwayne.city = "Kiambu"
